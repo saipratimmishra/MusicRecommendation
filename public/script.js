@@ -30,7 +30,6 @@ async function sendMood(mood) {
       `<li>
         <strong>${t.name}</strong> – ${t.artists[0].name}<br>
         <a href="${t.external_urls.spotify}" target="_blank">Listen on Spotify</a>
-        ${t.preview_url ? `<br><audio controls src="${t.preview_url}"></audio>` : ''}
       </li>`
     ).join('');
   } catch (err) {
