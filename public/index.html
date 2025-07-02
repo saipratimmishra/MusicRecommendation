@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mental Health Companion</title>
+  <link  rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="hien">
+        <p style="text-align: center;"><b>Which langugage songs you <br>want to listen??</b></p>
+        <button onclick="changeLangugage(event)" class="mood1 moodb1">HINDI</button><button onclick="changeLangugage(event)" class="mood1 moodb2">ENGLISH</button>
+        <p style="text-align: center;"><b>Language: <span id="lang">HINDI</span></b></p>
+      </div>
+    <div class="container">
+        <h1>Mood Based Playlist</h1>
+        <p>How are you feeling today?</p>
+      <div class="mood-buttons">
+        <button onclick="sendMood('Happy')" class="mood">😊 Happy</button>
+        <button onclick="sendMood('Sad')" class="mood">😢 Sad</button>
+        <button onclick="sendMood('Stressed')" class="mood">😰 Stressed</button>
+        <button onclick="sendMood('Angry')" class="mood">😡 Angry</button>
+        <button onclick="sendMood('Tired')" class="mood">😴 Tired</button>     
+      </div>
+      <input id="personal-Search" placeholder="What Do You Want To Play?" class="textbox" type="text">
+      <button onclick="sendMood()" class="mood">Search</button>
+     <div class="advice-box">
+         <h3>Music Recommendation</h3>
+         <ul id="adviceText">
+             <li>Click a mood to get music recommendation.</li>
+        </ul>
+      </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
