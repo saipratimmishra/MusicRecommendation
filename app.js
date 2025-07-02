@@ -5,8 +5,8 @@ const axios = require('axios');
 app.use(express.json());
 app.use(express.static('public'));
 
-const client_id = '302b7c6004524a7892c352573b989fdd';
-const client_secret = '9983f62969674353a7c7c2fe0727e4c4';
+const client_id = 'hidden';
+const client_secret = 'hidden';
 let access_token = null;
 
 async function getSpotifyAccessToken() {
