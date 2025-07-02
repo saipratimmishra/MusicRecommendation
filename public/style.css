@@ -83,8 +83,8 @@ left: 40px;
   background-color: #008c9e;
 }
 .music-item {
-  background-color: #e6f7ff; /* light blue */
-  border-left: 6px solid  #008c9e; /* left color bar */
+  background-color: #e6f7ff; 
+  border-left: 6px solid  #008c9e;
   padding: 10px 16px;
   margin-bottom: 10px;
   border-radius: 8px;
