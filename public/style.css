@@ -1,3 +1,8 @@
+@media (max-width: 600px) {
+  .hien {
+    display: none;
+  }
+}
 body {
   height: 100vh;
   margin: 0;
