@@ -1,12 +1,11 @@
 const express = require('express');
 const app = express();
 const axios = require('axios');
-
+const env=require('dotenv').config();
 app.use(express.json());
 app.use(express.static('public'));
-
-const client_id = 'hidden';
-const client_secret = 'hidden';
+const client_id = process.env.CLIENT_ID;
+const client_secret = process.env.CLIENT_SECRET;
 let access_token = null;
 
 async function getSpotifyAccessToken() {
