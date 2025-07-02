@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.mood-buttons {
+  margin: 20px 0;
+}
+
+.mood {
+  margin: 8px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #00bcd4;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.mood:hover {
+  background-color: #008c9e;
+}
+
+.advice-box {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f1faff;
+  border-left: 5px solid #00bcd4;
+  border-radius: 10px;
+  font-size: 18px;
+  max-height: 320px;
+  overflow: auto;
+}
+.textbox{
+  border-radius: 8px;
+  border-style: solid;
+  border-color: green;
+  height: 20px;
+  width: 190px;
+
+}
+.hien{
+  position: fixed;
+  top: 40px;
+left: 40px;
+}
+.mood1{
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #00bcd4;
+  color: white;
+  transition: background 0.3s ease;
+}
+.moodb1{
+   border-radius: 10px 0px 0px 10px;
+}
+.moodb2{
+   border-radius: 0px 10px 10px 0px;
+}
+.mood1:hover {
+  background-color: #008c9e;
+}
